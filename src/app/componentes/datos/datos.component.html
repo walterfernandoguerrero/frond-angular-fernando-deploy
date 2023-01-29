@@ -1,0 +1,28 @@
+<div >
+    <table>
+        <tbody style="font-size: 30px;">
+            <tr *ngFor="let misDatos of dato">
+                <td>{{misDatos.id}}</td>
+                <td>{{misDatos.nombre}}</td>
+                <td>{{misDatos.apellido}}</td>
+                <td>
+                    <button class="btn btn-color" (click)="borrar(misDatos.id)">
+                        Eliminar
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-color" routerLink="/pagModificar/{{misDatos.id}}" >
+                        Editar
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    
+    </table>
+</div>
+
+<div>
+    <button class="btn btn-color" routerLink="/pagAgregar" >
+        agregar a lista
+    </button>
+</div>

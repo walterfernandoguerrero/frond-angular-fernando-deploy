@@ -1,0 +1,33 @@
+#contenedor{
+    background-color: rgb(117, 197, 135);
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    background-color: yellowgreen;
+    padding: 2px;
+    border-radius: 10px;
+}
+input{
+    padding: 5px;
+    width: 400px;
+}
+label{
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+}
+.btn{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.btn-color{
+    color:white;
+    background-color: green;
+}
